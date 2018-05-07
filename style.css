@@ -4,16 +4,17 @@ article, header, nav, section, aside, footer, .container{
   border: 2px solid lightgrey;
   padding: 10px;
   margin: 5px;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial black', sans-serif;
   color: #555555;
   box-sizing: border-box;
-  background-color:#42e8f4
+  background-color: #42aaf4;**/
 }
 
 header{
   display: flex;
   border-color: 2px solid lightgrey;
-  background-color: #42e8f4;
+  background:url(images/easy3.jpeg);
+  font-family:'Impact';
 }
 
 section{
@@ -88,7 +89,8 @@ nav ul {
   margin: 0 auto;
 }
 
-.feels {display: block;}
+.feels {display: block;
+        background:url(images/easy6.jpg);}
 
 article {
   width: 100%;
@@ -102,8 +104,9 @@ article {
 }
 
 aside{
-  width: 200px;
+  width: 270px;
   float: right;
+  background:url(images/easy3.jpeg)
 }
 
 /* mobile: max-width: 480px */
@@ -118,16 +121,19 @@ aside{
 
 footer {
   clear: both;
+  background:url(images/easy3.jpeg)
 }
 
 aside img {
   width: 180px;
+
 }
 
 .xd { 
 font-size: 40px;
 font-family: Helvetica;
 font-weight: bold;
+color: #b7aac4;
 }
 
 #theButton {
@@ -140,7 +146,36 @@ font-weight: bold;
 */  /*height: 50px;*/
 }
 
+.img-lol {
+  width: 200px;
+  height: 200px;
+}
 
+.hello {
+  background:url(images/easy3.jpeg);
+  color: #b7aac4;
+  font-family: 'Geneva';
+}
+
+.bye {
+    background:url(images/easy3.jpeg)
+}
+
+.goodbye {
+  background:url(images/easy3.jpeg)
+}
+
+.badbye {
+  background:url(images/easy6.jpg)
+}
+
+.stupid {
+  background:url(images/easy3.jpeg)
+}
+
+.smart {
+    background:url(images/easy6.jpg)
+}
 
 
 
