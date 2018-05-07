@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <link href='./style.css' rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+
+  <body>
+
+  <header>
+    <!-- logo -->
+    <div class="header-brand">
+      <img id="logo" src="https://pbs.twimg.com/profile_images/875087697177567232/Qfy0kRIP.jpg" />
+      
+      <div id="brand-name">
+        Fake Twitter
+      </div>
+    </div>
+
+    <!-- navigation -->
+    <nav>
+      <ul>
+        <li> <a href="#"> Home </a> </li>
+        <li> <a href="#"> My Profile </a> </li>
+        <li> <a href="#"> Sign Out </a> </li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="container">
+  <article>
+
+    <section>
+      <h4>My Pictures</h4>
+
+        4 photos & 38 videos available
+      <div class="img-box">
+        <img class="img-responsive" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/04/30/15251175881925.jpg" />
+        <img class="img-responsive" src="https://givemesport.azureedge.net/images/18/03/02/33d764d6a5a79db751929991947771eb/960.jpg"/>
+        <img class="img-responsive" src="https://cdn.cnn.com/cnnnext/dam/assets/180424080315-mo-salah-longread-tease-super-tease.jpg" />
+        <img class="img-responsive" src="https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fpaininthearsenal.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2018%2F04%2F943349896-arsenal-v-southampton-premier-league.jpg.jpg&c=sc&w=850&h=560" />
+      </div>
+    </section>
+
+    <section>
+      <h2>My Tweets</h2>
+        <div class="feels">
+           <ul id="list">
+              <li>I love coding!!!!</li>
+              <li>FeelsGoodMan</li>
+              <li>I hate Mondays  </li>
+          </ul>
+
+        </div>
+    </section>
+
+    <section>
+      <h2>Interest</h2>
+      <div class="xd">
+      Movies Games Sports
+      </div>
+
+      <img class="img-responsive" src="https://www.unilad.co.uk/wp-content/uploads/2018/03/avengers-infinity-war-poster-1093756.jpeg" />
+      <img class="img-responsive" src="https://images.g2a.com/newlayout/323x433/1x1x0/0017f67ada95/59e60aeaae653a34fe0e9633" />
+      <img class="img-responsive" src="http://gennext.broncolor.com/imgservice/0001/1/750/fileadmin/upload_media/blog/main.jpg" />
+      <iframe width="520" height="315"
+        src="https://www.youtube.com/embed/6ZfuNTqbHE8">
+
+
+</iframe>
+    </section>
+  </article>
+
+  <aside>
+    <h3>My Profile</h3>
+    <img src="https://pbs.twimg.com/profile_images/957350508930457603/OicHBLXF_400x400.jpg">
+     <nav>
+      Piers Morgan
+      <ul>
+        <li> <a href="#"> Tweets </a> 9999 </li>
+        <li> <a href="#">  Following </a> 9999</li>
+        <li> <a href="#"> Followers </a> 99999</li>
+      </ul>
+    </nav>
+  </aside>
+  <aside>
+    <h3>Post a Tweet</h3>
+    <p>
+      <h1>GG</h1> 
+      <textarea id="todoInput" rows=5 cols=20></textarea>
+      <button id="theButton">Post Tweet</button>
+
+    </p>
+  </aside>
+
+  <footer>
+    <h4>Worldwide Trends</h4>
+    #Malaysia #GE14 #Avicii #Arsenal
+       #OK #LOL #CAT #HIHI #RealMadrid
+  </footer>
+</div>
+
+  <footer>
+    Copyright &copy; Twitter has a new Terms of Service and Privacy Policy, effective 25th May, 2018. 
+
+    <a href="mailto:youshengw96@gmail.com">Learn more</a> for any issues with this website.
+  </footer>
+  <script>
+    
+    function addToList(str) {
+      var ul = document.getElementById("list");
+      var li = document.createElement("li");
+        li.appendChild(document.createTextNode(str));
+        ul.appendChild(li);
+    }
+
+    theRealButton = document.getElementById("theButton")
+
+    theRealButton.onmousedown = function(){
+      var input = document.getElementById("todoInput");
+      var text = input.value;
+      addToList(text)
+    }
+
+    
+
+  </script>
+
+  </body>
+
+</html>
